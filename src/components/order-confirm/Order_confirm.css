@@ -1,10 +1,11 @@
 .Order-outer {
     display: flex;
     justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
 
 .Order-inner {
-    margin-top: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
