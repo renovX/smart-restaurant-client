@@ -1,0 +1,22 @@
+.Order-outer {
+    display: flex;
+    justify-content: center;
+}
+
+.Order-inner {
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Order-text {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.Order-text-outer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

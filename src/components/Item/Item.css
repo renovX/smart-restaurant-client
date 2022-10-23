@@ -1,0 +1,75 @@
+.Item-outer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Item-inner {
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 40% 33% 33%;
+    width: 100%;
+    align-items: center;
+}
+
+.Item-left-outer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.Item-middle-inner {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.Items-middle-content {
+    display: flex;
+    align-items: center;
+}
+
+.Item-dish {
+    margin-left: 1rem;
+}
+
+.Item-symbol {
+    height: 1rem;
+    width: 1rem;
+}
+
+.Item-middle-outer {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(247, 130, 130); */
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    width: 4rem;
+    height: 1.75rem;
+}
+
+.Item-dish-quatity {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.Item-dish-name {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.Item-right-outer {
+    display: flex;
+    scroll-snap-align: center;
+}
+
+.Item-dish-price {
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* margin-right: 0.5rem; */
+}

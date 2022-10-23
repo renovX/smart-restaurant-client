@@ -1,0 +1,49 @@
+.Bill-outer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Bill-inner {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bill-total-outer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.Bill-total-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.Bill-total-price {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+
+.Bill-totalpay-content {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+
+.Bill-totalpay-outer {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.Bill-totalpay-price {
+    font-size: 1.75rem;
+    font-weight: 500;
+}

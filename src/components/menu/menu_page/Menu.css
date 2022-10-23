@@ -1,0 +1,66 @@
+.accordion-menu {
+    margin: 50px 10px;
+    box-shadow: 0px 3px 7px #c4c4c4, 0px -3px 7px #c4c4c4;
+    border-radius: 15px;
+}
+
+.card {
+    border-bottom: solid 1px #c4c4c4;
+    display: flex;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    padding: 15px 0px;
+}
+
+.card-add-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.veg-or-non-veg {
+    height: 20px;
+    width: 20px;
+}
+
+.food-item-name {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.food-item-description {
+    font-style: italic;
+}
+
+.card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+
+.food-item-image {
+    height: 70px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+/* New styles - F */
+.add-item-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(0, 152, 0); */
+    /* color: white; */
+}
