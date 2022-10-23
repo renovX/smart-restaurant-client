@@ -15,7 +15,7 @@ export default function Menu() {
 
 
     useEffect(() => {
-        dispatch(fetchType())
+        typeStatus !== 'succeeded' && dispatch(fetchType())
     }, [])
 
 

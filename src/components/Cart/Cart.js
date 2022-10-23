@@ -22,7 +22,9 @@ export default function Cart() {
     return (
         <div className='Cart-outer'>
             <div className='Cart-back-option'>
-                <ArrowBackIcon w={10} h={10} />
+                <Link to="/menu">
+                    <ArrowBackIcon w={10} h={10} />
+                </Link>
                 <label className='Cart-back-option-content'>My Order</label>
             </div>
 
