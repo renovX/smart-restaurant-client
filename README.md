@@ -1,5 +1,6 @@
 <h1>Client side interface for a smart-restaurant project</h1>
-![image](https://user-images.githubusercontent.com/76863803/224503014-bc9e50bb-9cbb-425d-a387-5ab798d9fdc9.png)<br>
+
+![image](https://user-images.githubusercontent.com/76863803/224503265-a7b51697-b009-4c43-ad45-64fdb3052915.png)<br>
 Landing Page
 
 ![image](https://user-images.githubusercontent.com/76863803/224503048-807c0217-1778-4664-82f0-1c2ca5b716eb.png)<br>
