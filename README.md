@@ -1,5 +1,6 @@
 <h1>Client side interface for a smart-restaurant project</h1>
 <h3>Hosted on: https://smart-restaurant-client-roan.vercel.app/ </h3>
+
 ![image](https://user-images.githubusercontent.com/76863803/224503265-a7b51697-b009-4c43-ad45-64fdb3052915.png)<br>
 Landing Page
 
