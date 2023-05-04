@@ -26,7 +26,7 @@ export default function OrderConfirm({ name, phone }) {
                 price: price
             }
             const placeOrder = async () => {
-                const res = await fetch('https://smart-restaurant-server.herokuapp.com/diner/place-order', {
+                const res = await fetch(process.env.REACT_APP_BACKEND + '/diner/place-order', {
                     method: 'POST',
                     headers: {
                         accept: 'application.json',
